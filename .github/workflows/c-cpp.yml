@@ -18,7 +18,7 @@ jobs:
         cmake
     - name: execute
       run: |
-        ./sobel.c
+        ./scr/sobel.c
     - name: verify execution 
       run: |
         echo "Tada Programme Bien execute"
