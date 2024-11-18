@@ -15,8 +15,7 @@ jobs:
       uses: actions/checkout@v4
     - name: compile
       run: |
-        cd src
-        make 
+        ./CMakeGCC.sh
     - name: execute
       run: |
         ./generated/main.c
